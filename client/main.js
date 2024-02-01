@@ -1,16 +1,6 @@
 const form = document.getElementById("form");
 const movieContainer = document.getElementById("movie-container");
 
-let x = document.createElement("p");
-
-x.textContent = "hello";
-
-document.body.appendChild(x);
-
-x.addEventListener("click", () => {
-  console.log("click");
-});
-
 const baseURL = "http://localhost:4242";
 
 form.addEventListener("submit", async (e) => {
